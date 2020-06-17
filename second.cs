@@ -35,8 +35,15 @@ namespace second.cs
             Console.WriteLine("Sky is " + color);
             Console.WriteLine(noun + " is fast");
             Console.WriteLine("I like " + carName);
-
+            
+            //methods
+            Mymethod("Luks", 24);
+            
             Console.ReadLine();
+        }
+        static void Mymethod(string name, int age)
+        {
+            Console.WriteLine("Hello " + name + " you are " + age);
         }
     }
 }
