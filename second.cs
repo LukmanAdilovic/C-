@@ -6,6 +6,7 @@ namespace second.cs
     {
         static void Main(string[] args)
         {
+            //Getting User Input and Building a Calculator
             Console.Write("Enter your name: ");
             string name = Console.ReadLine();
             Console.Write("Enter your age: ");
@@ -19,6 +20,7 @@ namespace second.cs
 
             Console.WriteLine("Product is " + (num1 + num2));
 
+            //Building a Mad Lib
             string color, noun, carName;
 
             Console.Write("Enter a color: ");
